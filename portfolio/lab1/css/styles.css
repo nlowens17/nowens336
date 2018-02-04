@@ -1,0 +1,80 @@
+body {
+    background-color:black;
+    color:gray;
+}
+
+#welcoming {
+    text-align: center;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+main {
+    padding-left: 460px;
+}
+
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .5s;
+}
+
+#portrait, #welcoming {
+    float: left;
+}
+
+footer {
+    clear: left;
+    font-size: .7em;
+    color: #F26395;
+}
+
+#welcoming {
+    text-align: left;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td string {
+    color: #CF0A2E;
+}
+
+#table-header {
+    background-color: #610785;
+}
+
+.table-row {
+    background-color: #4C0469;
+}
+
+ul {
+    text-align: left;
+    padding-left: 700px;
+}
+
+.hobby {
+    color: yellow;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
