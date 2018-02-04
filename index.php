@@ -1,1 +1,1 @@
-Welcome to Noah Owens's CST336 Home Page!
+Welcome to Noah Owens's Homepage!
