@@ -1,0 +1,61 @@
+h1 {
+    text-shadow: 1px 1px white;
+}
+
+body {
+    background-color:#24004F;
+    color:#ABABAB;
+}
+
+nav a, #s {
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .5s;
+}
+
+main{
+    padding-left: 180px;
+}
+
+#portrait, #welcoming {
+    float: left;
+}
+
+header, footer, main, nav {
+    text-align: center;
+}
+
+#lang, #opening {
+    float: left;
+}
+
+footer {
+    clear: left;
+}
+
+#opening, #C {
+    text-align: left;
+}
+
+#sources a {
+    padding:15px;
+    text-decoration: none;
+    color: white;
+}
+
+#C, #Cplus {
+    float: left;
+}
+
+#otter {
+    opacity: 0.5;
+}
+
