@@ -1,0 +1,70 @@
+[21-Feb-2018 07:19:15 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 34
+[21-Feb-2018 07:30:50 UTC] PHP Fatal error:  Call to undefined function array_shuffle() in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 33
+[21-Feb-2018 07:30:50 UTC] PHP Stack trace:
+[21-Feb-2018 07:30:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 07:30:50 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:51
+[21-Feb-2018 07:33:58 UTC] PHP Parse error:  syntax error, unexpected 'end' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 40
+[21-Feb-2018 07:42:35 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 40
+[21-Feb-2018 07:52:02 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 34
+[21-Feb-2018 07:52:02 UTC] PHP Stack trace:
+[21-Feb-2018 07:52:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 07:52:02 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:60
+[21-Feb-2018 07:52:02 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:34
+[21-Feb-2018 07:52:03 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 34
+[21-Feb-2018 07:52:03 UTC] PHP Stack trace:
+[21-Feb-2018 07:52:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 07:52:03 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:60
+[21-Feb-2018 07:52:03 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:34
+[21-Feb-2018 09:21:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 24
+[21-Feb-2018 09:21:47 UTC] PHP Fatal error:  Call to undefined function arra() in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 10
+[21-Feb-2018 09:21:47 UTC] PHP Stack trace:
+[21-Feb-2018 09:21:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:21:47 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:67
+[21-Feb-2018 09:24:29 UTC] PHP Fatal error:  Class 'Water gun' not found in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 41
+[21-Feb-2018 09:24:29 UTC] PHP Stack trace:
+[21-Feb-2018 09:24:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:24:29 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:67
+[21-Feb-2018 09:32:07 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 56
+[21-Feb-2018 09:32:07 UTC] PHP Stack trace:
+[21-Feb-2018 09:32:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:32:07 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:69
+[21-Feb-2018 09:35:04 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 56
+[21-Feb-2018 09:35:04 UTC] PHP Stack trace:
+[21-Feb-2018 09:35:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:35:04 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:69
+[21-Feb-2018 09:35:04 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 56
+[21-Feb-2018 09:35:04 UTC] PHP Stack trace:
+[21-Feb-2018 09:35:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:35:04 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:69
+[21-Feb-2018 09:35:05 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 56
+[21-Feb-2018 09:35:05 UTC] PHP Stack trace:
+[21-Feb-2018 09:35:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:35:05 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:69
+[21-Feb-2018 09:35:06 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 56
+[21-Feb-2018 09:35:06 UTC] PHP Stack trace:
+[21-Feb-2018 09:35:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:35:06 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:69
+[21-Feb-2018 09:35:06 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 56
+[21-Feb-2018 09:35:06 UTC] PHP Stack trace:
+[21-Feb-2018 09:35:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:35:06 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:69
+[21-Feb-2018 09:35:07 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 56
+[21-Feb-2018 09:35:07 UTC] PHP Stack trace:
+[21-Feb-2018 09:35:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:35:07 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:69
+[21-Feb-2018 09:35:07 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 56
+[21-Feb-2018 09:35:07 UTC] PHP Stack trace:
+[21-Feb-2018 09:35:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:35:07 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:69
+[21-Feb-2018 09:35:08 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 56
+[21-Feb-2018 09:35:08 UTC] PHP Stack trace:
+[21-Feb-2018 09:35:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:35:08 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:69
+[21-Feb-2018 09:35:08 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 56
+[21-Feb-2018 09:35:08 UTC] PHP Stack trace:
+[21-Feb-2018 09:35:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:35:08 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:69
+[21-Feb-2018 09:35:09 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/nowens336/homework/homework2/index.php on line 56
+[21-Feb-2018 09:35:09 UTC] PHP Stack trace:
+[21-Feb-2018 09:35:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
+[21-Feb-2018 09:35:09 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:69

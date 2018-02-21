@@ -24,3 +24,8 @@
 [12-Feb-2018 23:00:44 UTC] PHP Stack trace:
 [12-Feb-2018 23:00:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/practice/php_arrays.php:0
 [12-Feb-2018 23:13:05 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/nowens336/practice/php_arrays.php on line 27
+[19-Feb-2018 23:30:28 UTC] PHP Parse error:  syntax error, unexpected '[', expecting '(' in /home/ubuntu/workspace/nowens336/Challenge/password.php on line 3
+[19-Feb-2018 23:41:33 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/nowens336/Challenge/password.php on line 35
+[19-Feb-2018 23:47:29 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/nowens336/Challenge/password.php on line 33
+[19-Feb-2018 23:50:20 UTC] PHP Parse error:  syntax error, unexpected 'getLetter' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/nowens336/Challenge/password.php on line 33
+[19-Feb-2018 23:50:37 UTC] PHP Parse error:  syntax error, unexpected '"</td>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/nowens336/Challenge/password.php on line 33
