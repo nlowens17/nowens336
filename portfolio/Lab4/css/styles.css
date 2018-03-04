@@ -2,7 +2,11 @@
         opacity:0.9;
         width:100%;
         text-align:center;
-        color:yellow;
+        color: black;
+    }
+    
+    form {
+        color: black;
     }
     
     input {
