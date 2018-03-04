@@ -32,3 +32,31 @@
 [18-Feb-2018 07:13:16 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/nowens336/portfolio/lab2/inc/functions.php on line 41
 [18-Feb-2018 07:13:16 UTC] PHP Stack trace:
 [18-Feb-2018 07:13:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab2/index.1.php:0
+[21-Feb-2018 23:27:51 UTC] PHP Warning:  include(api/pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php on line 7
+[21-Feb-2018 23:27:51 UTC] PHP Stack trace:
+[21-Feb-2018 23:27:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php:0
+[21-Feb-2018 23:27:51 UTC] PHP Warning:  include(): Failed opening 'api/pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php on line 7
+[21-Feb-2018 23:27:51 UTC] PHP Stack trace:
+[21-Feb-2018 23:27:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php:0
+[21-Feb-2018 23:27:51 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php on line 9
+[21-Feb-2018 23:27:51 UTC] PHP Stack trace:
+[21-Feb-2018 23:27:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php:0
+[21-Feb-2018 23:27:58 UTC] PHP Warning:  include(api/pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php on line 7
+[21-Feb-2018 23:27:58 UTC] PHP Stack trace:
+[21-Feb-2018 23:27:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php:0
+[21-Feb-2018 23:27:58 UTC] PHP Warning:  include(): Failed opening 'api/pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php on line 7
+[21-Feb-2018 23:27:58 UTC] PHP Stack trace:
+[21-Feb-2018 23:27:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php:0
+[21-Feb-2018 23:27:58 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php on line 9
+[21-Feb-2018 23:27:58 UTC] PHP Stack trace:
+[21-Feb-2018 23:27:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php:0
+[21-Feb-2018 23:43:21 UTC] PHP Warning:  include(api/pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php on line 7
+[21-Feb-2018 23:43:21 UTC] PHP Stack trace:
+[21-Feb-2018 23:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php:0
+[21-Feb-2018 23:43:21 UTC] PHP Warning:  include(): Failed opening 'api/pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php on line 7
+[21-Feb-2018 23:43:21 UTC] PHP Stack trace:
+[21-Feb-2018 23:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php:0
+[21-Feb-2018 23:43:21 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php on line 9
+[21-Feb-2018 23:43:21 UTC] PHP Stack trace:
+[21-Feb-2018 23:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php:0
+[04-Mar-2018 05:08:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php on line 144
