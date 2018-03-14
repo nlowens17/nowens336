@@ -68,3 +68,4 @@
 [21-Feb-2018 09:35:09 UTC] PHP Stack trace:
 [21-Feb-2018 09:35:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:0
 [21-Feb-2018 09:35:09 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/homework/homework2/index.php:69
+[14-Mar-2018 06:07:57 UTC] PHP Parse error:  syntax error, unexpected '$pokemon' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/nowens336/homework/homework3/index.php on line 8

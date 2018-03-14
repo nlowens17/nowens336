@@ -29,7 +29,7 @@
     
     function checkCategory($category) {
         if ($category == $_GET['category']) {
-            echo " selected";
+            echo "selected";
         }
     }
     
