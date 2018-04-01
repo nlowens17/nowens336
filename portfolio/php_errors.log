@@ -60,3 +60,44 @@
 [21-Feb-2018 23:43:21 UTC] PHP Stack trace:
 [21-Feb-2018 23:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php:0
 [04-Mar-2018 05:08:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/nowens336/portfolio/Lab4/index.php on line 144
+[01-Apr-2018 06:09:31 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php on line 5
+[01-Apr-2018 06:09:31 UTC] PHP Stack trace:
+[01-Apr-2018 06:09:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php:0
+[01-Apr-2018 06:09:31 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php on line 5
+[01-Apr-2018 06:09:31 UTC] PHP Stack trace:
+[01-Apr-2018 06:09:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php:0
+[01-Apr-2018 06:09:31 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php on line 7
+[01-Apr-2018 06:09:31 UTC] PHP Stack trace:
+[01-Apr-2018 06:09:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php:0
+[01-Apr-2018 06:09:54 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php on line 5
+[01-Apr-2018 06:09:54 UTC] PHP Stack trace:
+[01-Apr-2018 06:09:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php:0
+[01-Apr-2018 06:09:54 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php on line 5
+[01-Apr-2018 06:09:54 UTC] PHP Stack trace:
+[01-Apr-2018 06:09:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php:0
+[01-Apr-2018 06:09:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php on line 7
+[01-Apr-2018 06:09:54 UTC] PHP Stack trace:
+[01-Apr-2018 06:09:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php:0
+[01-Apr-2018 06:10:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/portfolio/lab7/loginProcess.php on line 18
+[01-Apr-2018 06:11:59 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/nowens336/portfolio/lab6/index.php on line 64
+[01-Apr-2018 06:11:59 UTC] PHP Stack trace:
+[01-Apr-2018 06:11:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab6/index.php:0
+[01-Apr-2018 06:12:10 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/nowens336/portfolio/lab6/index.php on line 64
+[01-Apr-2018 06:12:10 UTC] PHP Stack trace:
+[01-Apr-2018 06:12:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab6/index.php:0
+[01-Apr-2018 06:14:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/nowens336/portfolio/lab6/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/portfolio/lab6/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nowens336/portfolio/lab6/index.php(76): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/portfolio/lab6/index.php on line 14
+[01-Apr-2018 06:14:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/nowens336/portfolio/lab6/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/portfolio/lab6/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nowens336/portfolio/lab6/index.php(76): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/portfolio/lab6/index.php on line 14
