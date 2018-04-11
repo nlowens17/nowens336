@@ -9,13 +9,24 @@
     $username = $_POST['username'];
     $password = sha1($_POST['password']);
     
+    //does not prevent sql injection
     $sql = "SELECT * 
             FROM om_admin
             WHERE username = '$username'
             AND   password = '$password'";
+    
+    //prevents sql injection        
+    $sql = "SELECT * 
+            FROM om_admin
+            WHERE username = :$username
+            AND   password = :$password";
+            
+    $np = array();
+    $np[":username"] = $username;
+    $np[":password"] = $password;
             
     $stmt = $conn->prepare($sql);
-    $stmt->execute();
+    $stmt->execute($np);
     $record = $stmt->fetch(PDO::FETCH_ASSOC); //for single record
 
     if (empty($record)) {

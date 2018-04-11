@@ -7,7 +7,7 @@
             FROM celebrity
             WHERE country_of_birth != 'USA'";
             
-    $stmt = $dbConn->query($sql);	
+    $stmt = $conn->query($sql);	
     $results = $stmt->fetchAll();
     foreach ($results as $record) {
     echo $record['firstName']  . $record['firstName'] . $record['country_of_birth'] . "<br />";
