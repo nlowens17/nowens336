@@ -3,7 +3,7 @@
     if(!isset($_SESSION['adminName'])) {
         header("Location:index.php");
     }
-    include '../../dbConnection';
+    include '../../dbConnection.php';
     $conn = getDataBaseConnection("ottermart");
     
     function displayAllProducts() {
@@ -12,7 +12,7 @@
         
         $stmt = $conn->prepare($sql);
         $stmt->execute();
-        $record = $statement->fetchAll(PDO::FETCH_ASSOC);
+        $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
         //print_r($records);
         return $records;
@@ -27,6 +27,31 @@
         
             form {
                 display:inline;
+            }
+            a:link, a:visited {
+                background-color: #969B9E;
+                color: white;
+                padding: 5px 10px;
+                text-align: center; 
+                text-decoration: none;
+                display: inline-block;
+            }
+            a:hover, a:active {
+                background-color: red;
+            }
+            body {
+                text-align:center;
+                background-color:#0F8DDB;
+                color:white;
+                text-shadow:
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+                padding-top: 10px;
+            }
+            a:link {
+                text-decoration: none;
             }
             
         </style>
@@ -52,7 +77,7 @@
         </form>
         </br>
         
-        <strong> Produstc: </strong> </br>
+        <strong> Products: </strong> </br>
         <?php $records = displayAllProducts(); 
             foreach ($records as $record) {
                 echo "[<a href='updateProduct.php?productId=".$record['productId']."'>Update</a>]";
@@ -65,7 +90,7 @@
                 echo $record["productName"];
                 echo "</br>";
             }
-        ?>;
+        ?>
         
         
         

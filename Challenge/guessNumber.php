@@ -1,9 +1,12 @@
+
+
 <?php
     session_start();
 
     if(!isset($_SESSION['attempts'] )) {
-        playAgain();
-        resetHistory();
+        $_SESSION['attempts'] = 0; 
+        $_SESSION['answer'] =  rand(1,10);
+        $_SESSION['history'] = array();
     }
     
     if(isset($_GET['playAgain'])) {
@@ -18,7 +21,6 @@
     function playAgain() {
         $_SESSION['attempts'] = 0; 
         $_SESSION['answer'] =  rand(1,10);
-        $_SESSION['guesses'] = array();
     }
     
     function resetHistory() {
@@ -29,18 +31,17 @@
         if(isset($_GET['guessNum'])) {
             if(empty($_GET['guess'])) {
                 echo "<h1> Error you must fill in a number</h1>";
-            } else {
-                array_push($_SESSION['guesses'],$_GET['guess'] );
+            } else {;
                 $_SESSION['attempts']++;
-                if ($_SESSION['answer'] > $_SESSION['guess']) {
+                if ($_SESSION['answer'] > $_GET['guess']) {
                     echo "The number should be higher<br />";
                 }
     
-                if ($_SESSION['answer'] < $_SESSION['guess']) {
+                else if ($_SESSION['answer'] < $_GET['guess']) {
                     echo "The number should be lower<br />";
                 }
     
-                if ($_SESSION['answer'] == $_SESSION['guess']) {
+                else if ($_SESSION['answer'] == $_GET['guess']) {
                     echo "CORRECT!<br />";
                     addHistory();
                 }
@@ -49,17 +50,16 @@
         }
     }
     function addHistory() {
-        $historyMessage = "<You guessed the numbers ";
-        foreach($_SESSION['guesses'] as $guesses){
-            $historyMessage .= $guesses . " "; 
-        }
-        $historyMessage .=  $_SESSION['attempts'] . " attempts<br />";
-        array_push($_SESSION['history'], $historyMessage);
+        array_push($_SESSION['history'], "<You guessed the number ". $_GET['guess']. " in " . $_SESSION['attempts'] . " attempts<br />");
     }
+    
     function displayHistory() {
         echo "<h2>Guesses History:</h2>";
-        foreach($_SESSION['history'] as $history){
+       /* foreach($_SESSION['history'] as $history){
             echo $history;
+        }*/
+        for ($i=0; $i < count($_SESSION['attempts']); $i++ ) {
+            echo $_SESSION['history'];
         }
     }
 ?>
@@ -88,6 +88,7 @@
         ?>
         <br/><br/>
         <?php if(!empty($_SESSION['history'])) displayHistory(); ?>
+        
 
     </body>
 </html>

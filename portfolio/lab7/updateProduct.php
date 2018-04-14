@@ -1,77 +1,106 @@
 <?php
     include '../../dbConnection.php';
-    $conn = getDatabaseConnection("ottermart");
     
-    function getCategories($catid) {
-        global $conn;
+    $connection = getDatabaseConnection("ottermart");
     
-        $sql = "SELECT catId, catName from om_category ORDER BY catName";
+    function getCategories($catId) {
+    global $connection;
     
-        $statement = $conn->prepare($sql);
-        $statement->execute();
-        $records = $statement->fetchAll(PDO::FETCH_ASSOC);
-        foreach ($records as $record) {
-            echo "<option  ";
-            echo ($record["catId"] == $catId)? "selected": ""; 
-            echo " value='".$record["catId"] ."'>". $record['catName'] ." </option>";
-        }
+    $sql = "SELECT catId, catName from om_category ORDER BY catName";
+    
+    $statement = $connection->prepare($sql);
+    $statement->execute();
+    $records = $statement->fetchAll(PDO::FETCH_ASSOC);
+    foreach ($records as $record) {
+        echo "<option  ";
+        echo ($record["catId"] == $catId)? "selected": ""; 
+        echo " value='".$record["catId"] ."'>". $record['catName'] ." </option>";
     }
+}
     
-    function getProductInfo() {
-        global $conn;
-        $sql = "SELECT FROM om_product WHERE productId =" . $_GET['productId'];
+    function getProductInfo()
+    {
+        global $connection;
+        $sql = "SELECT * FROM om_product WHERE productId = " . $_GET['productId'];
     
-        $stmt = $conn->prepare($sql);
-        $stmt->execute($np);
-        $record = $stmt->fetch(PDO::FETCH_ASSOC);
+        //echo $_GET["productId"];
+        
+        $statement = $connection->prepare($sql);
+        $statement->execute();
+        $record = $statement->fetch(PDO::FETCH_ASSOC);
         
         return $record;
     }
     
+    
     if (isset($_GET['updateProduct'])) {
+        
         //echo "Trying to update the product!";
+        
         $sql = "UPDATE om_product
-                SET field = :productName,
-                productDescription = :productDescription,
-                productImage = :productImage,
-                price = :price,
-                catId = :catId
-            WHERE productId = :productId";
+                SET productName = :productName,
+                    productDescription = :productDescription,
+                    productImage = :productImage,
+                    price = :price,
+                    catId = :catId
+                WHERE productId = :productId";
         $np = array();
         $np[":productName"] = $_GET['productName'];
         $np[":productDescription"] = $_GET['description'];
         $np[":productImage"] = $_GET['productImage'];
         $np[":price"] = $_GET['price'];
         $np[":catId"] = $_GET['catId'];
+        $np[":productId"] = $_GET['productId'];
+                
+        $statement = $connection->prepare($sql);
+        $statement->execute($np);        
+
+        
     }
     
-    if (isset($_GET['productId'])) {
+    
+    if(isset ($_GET['productId']))
+    {
         $product = getProductInfo();
     }
     
-     //print_r($record);
+    //print_r($product);
     
-    //echo $_GET['productId'];
+    
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Product Update </title>
+        <title>Update Product </title>
+        <style>
+            body {
+                text-align:center;
+                background-color:#0F8DDB;
+                color:white;
+                text-shadow:
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+                padding-top: 10px;
+            }
+        </style>
     </head>
     <body>
         <h1>Update Product</h1>
         
         <form>
+            <input type="hidden" name="productId" value= "<?=$product['productId']?>"/>
             Product name: <input type="text" value = "<?=$product['productName']?>" name="productName"><br>
             Description: <textarea name="description" cols = 50 rows = 4><?=$product['productDescription']?></textarea><br>
             Price: <input type="text" name="price" value = "<?=$product['price']?>"><br>
     
             Category: <select name="catId">
-                <option value="">Select One</option>
-                <?php getCategories(); ?>
+                <option>Select One</option>
+                <?php getCategories( $product['catId'] ); ?>
             </select> <br />
-            Set Image Url: <input type = "text" name = "productImage"><br>
-            <input type="submit" name="submitProduct" value="Update Product">
+            Set Image Url: <input type = "text" name = "productImage" value = "<?=$product['productImage']?>"><br>
+            <input type="submit" name="updateProduct" value="Update Product">
             
         </form>
     </body>
