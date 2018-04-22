@@ -3,7 +3,7 @@
     <head>
         <title> Admin Login </title>
         <style>
-            @import url("css/style.css");
+            
         </style>
     </head>
     <body>
