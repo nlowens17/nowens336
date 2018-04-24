@@ -27,6 +27,10 @@ $(".replayBtn").on("click", function() {
    location.reload(); 
 });
 
+$("#hint").on("click", function(){
+    displayHint();
+})
+
 /*$("#letterBtn").click(function() {
     var boxVal = $("#letterBox").val();
     console.log("The value in the box " + boxVal);
@@ -74,7 +78,7 @@ function checkLetter(letter) {
     }
     
     if (remainingGuesses <= 0) {
-        endgame(false);
+        endGame(false);
     }
 }
 
@@ -98,11 +102,12 @@ function updateBoard() {
         document.getElementById("word").innerHTML += letter + " ";
     }
     $("#word").append("<br/>");
-    $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>");
+    //$("#hint").append("<button class='hint btn btn-success' id=''>" + Hint + "</button>");
+    //$("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>");
 }
 
 function updateMan() {
-    $("hangImg").attr("src", "img/stick_" + (6 - remainingGuesses) + ".png");
+    $("#hangImg").attr("src", "img/stick_" + (6 - remainingGuesses) + ".png");
 }
 
 function endGame(win) {
@@ -119,6 +124,13 @@ function endGame(win) {
 function disableButton(btn) {
     btn.prop("disabled", true);
     btn.attr("class", "btn btn-danger");
+}
+
+function displayHint() {
+    $("#word").append("<br/>");
+    $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>");
+    remainingGuesses--;
+    updateMan();
 }
 //console.log(selectedWord);
 //initBoard();
