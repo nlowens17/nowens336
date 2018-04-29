@@ -247,3 +247,30 @@ Stack trace:
 [14-Apr-2018 22:23:55 UTC] PHP Stack trace:
 [14-Apr-2018 22:23:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab7/updateProduct.php:0
 [14-Apr-2018 22:23:55 UTC] PHP   2. getCategories() /home/ubuntu/workspace/nowens336/portfolio/lab7/updateProduct.php:90
+[29-Apr-2018 05:09:50 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php on line 3
+[29-Apr-2018 05:09:50 UTC] PHP Stack trace:
+[29-Apr-2018 05:09:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php:0
+[29-Apr-2018 05:09:50 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php on line 3
+[29-Apr-2018 05:09:50 UTC] PHP Stack trace:
+[29-Apr-2018 05:09:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php:0
+[29-Apr-2018 05:09:50 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php on line 5
+[29-Apr-2018 05:09:50 UTC] PHP Stack trace:
+[29-Apr-2018 05:09:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php:0
+[29-Apr-2018 05:10:31 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php on line 3
+[29-Apr-2018 05:10:31 UTC] PHP Stack trace:
+[29-Apr-2018 05:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php:0
+[29-Apr-2018 05:10:31 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php on line 3
+[29-Apr-2018 05:10:31 UTC] PHP Stack trace:
+[29-Apr-2018 05:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php:0
+[29-Apr-2018 05:10:31 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php on line 5
+[29-Apr-2018 05:10:31 UTC] PHP Stack trace:
+[29-Apr-2018 05:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php:0
+[29-Apr-2018 05:11:08 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php on line 3
+[29-Apr-2018 05:11:08 UTC] PHP Stack trace:
+[29-Apr-2018 05:11:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php:0
+[29-Apr-2018 05:11:08 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php on line 3
+[29-Apr-2018 05:11:08 UTC] PHP Stack trace:
+[29-Apr-2018 05:11:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php:0
+[29-Apr-2018 05:11:08 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php on line 5
+[29-Apr-2018 05:11:08 UTC] PHP Stack trace:
+[29-Apr-2018 05:11:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/portfolio/lab9/checkPasswordAPI.php:0
