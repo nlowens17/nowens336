@@ -188,3 +188,470 @@
 [11-Apr-2018 22:39:09 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/nowens336/Challenge/guessNumber.php on line 20
 [11-Apr-2018 22:39:09 UTC] PHP Stack trace:
 [11-Apr-2018 22:39:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/Challenge/guessNumber.php:0
+[08-May-2018 08:12:42 UTC] PHP Fatal error:  Call to undefined function getPokemon() in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 67
+[08-May-2018 08:12:42 UTC] PHP Stack trace:
+[08-May-2018 08:12:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/finalproject/poke.php:0
+[08-May-2018 08:13:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 40
+[08-May-2018 08:13:32 UTC] PHP Stack trace:
+[08-May-2018 08:13:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/finalproject/poke.php:0
+[08-May-2018 08:13:32 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/finalproject/poke.php:67
+[08-May-2018 08:15:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 40
+[08-May-2018 08:15:52 UTC] PHP Stack trace:
+[08-May-2018 08:15:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/finalproject/poke.php:0
+[08-May-2018 08:15:52 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/finalproject/poke.php:67
+[08-May-2018 08:20:37 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 18
+[08-May-2018 08:20:37 UTC] PHP Stack trace:
+[08-May-2018 08:20:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/finalproject/poke.php:0
+[08-May-2018 08:20:37 UTC] PHP   2. getPokemon() /home/ubuntu/workspace/nowens336/finalproject/poke.php:31
+[08-May-2018 08:20:37 UTC] PHP   3. PDOStatement->execute() /home/ubuntu/workspace/nowens336/finalproject/poke.php:18
+[08-May-2018 08:21:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_876ef2f60b62635.cities' doesn't exist' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(18): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(31): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 18
+[08-May-2018 08:21:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_876ef2f60b62635.cities' doesn't exist' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(18): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(31): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 18
+[08-May-2018 08:39:43 UTC] PHP Parse error:  syntax error, unexpected '300' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 25
+[08-May-2018 08:42:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/nowens336/finalproject/train.php on line 38
+[08-May-2018 08:42:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/nowens336/finalproject/train.php on line 38
+[08-May-2018 08:45:33 UTC] PHP Fatal error:  Call to undefined function getLocations() in /home/ubuntu/workspace/nowens336/finalproject/loc.php on line 37
+[08-May-2018 08:45:33 UTC] PHP Stack trace:
+[08-May-2018 08:45:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/finalproject/loc.php:0
+[08-May-2018 19:56:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.admin' doesn't exist' in /home/ubuntu/workspace/nowens336/finalproject/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/loginProcess.php on line 35
+[08-May-2018 19:56:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/nowens336/finalproject/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/loginProcess.php on line 35
+[08-May-2018 22:42:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_category' doesn't exist' in /home/ubuntu/workspace/nowens336/finalproject/edit.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/edit.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nowens336/finalproject/edit.php(100): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/edit.php on line 12
+[08-May-2018 22:43:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_category' doesn't exist' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(100): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 12
+[08-May-2018 23:27:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 42
+[08-May-2018 23:30:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 42
+[09-May-2018 01:22:30 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 39
+[09-May-2018 01:22:30 UTC] PHP Stack trace:
+[09-May-2018 01:22:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:0
+[09-May-2018 01:22:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 40
+[09-May-2018 01:26:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 40
+[09-May-2018 01:44:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 40
+[09-May-2018 01:45:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 40
+[09-May-2018 01:47:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(39): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 39
+[09-May-2018 01:47:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 26
+[09-May-2018 01:57:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ID = ''' at line 9' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 28
+[09-May-2018 04:56:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/nowens336/finalproject/admin.php on line 97
+[09-May-2018 04:56:14 UTC] PHP Stack trace:
+[09-May-2018 04:56:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/finalproject/admin.php:0
+[09-May-2018 05:00:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ID = ''' at line 9' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 28
+[09-May-2018 05:02:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ID = ''' at line 9' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 28
+[09-May-2018 05:02:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ID = ''' at line 9' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 28
+[09-May-2018 05:02:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ID = ''' at line 9' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 28
+[09-May-2018 05:04:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ID = '22'' at line 9' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 28
+[09-May-2018 05:05:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ID = ''' at line 9' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 28
+[09-May-2018 05:07:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ID = ''' at line 8' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 28
+[09-May-2018 05:08:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ID = ''' at line 8' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 26
+[09-May-2018 06:00:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(41): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(68): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 41
+[09-May-2018 06:08:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Name LIKE '%%'' at line 3' in /home/ubuntu/workspace/nowens336/finalproject/train.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/train.php(39): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/train.php(66): getTrainers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/train.php on line 39
+[09-May-2018 06:10:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Name LIKE '%%'' at line 3' in /home/ubuntu/workspace/nowens336/finalproject/train.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/train.php(39): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/train.php(66): getTrainers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/train.php on line 39
+[09-May-2018 06:10:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Name LIKE '%%'' at line 3' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(41): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(68): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 41
+[09-May-2018 06:10:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Name LIKE '%%'' at line 3' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(41): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(68): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 41
+[09-May-2018 06:11:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Name LIKE '%%'' at line 3' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(41): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(68): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 41
+[09-May-2018 06:12:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Name LIKE '%%'' at line 3' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(41): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(68): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 41
+[09-May-2018 06:12:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Name LIKE '%%'' at line 3' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(41): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(68): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 41
+[09-May-2018 06:12:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Name LIKE '%%'' at line 3' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(41): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(68): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 41
+[09-May-2018 06:12:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Name LIKE '%%'' at line 3' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(41): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(68): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 41
+[09-May-2018 06:12:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Name LIKE '%%'' at line 3' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(41): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(68): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 41
+[09-May-2018 06:12:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Name LIKE '%%'' at line 3' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(41): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(68): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 41
+[09-May-2018 06:12:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Name LIKE '%%'' at line 3' in /home/ubuntu/workspace/nowens336/finalproject/poke.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/poke.php(41): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nowens336/finalproject/poke.php(68): getPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/poke.php on line 41
+[09-May-2018 07:15:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 07:16:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 07:16:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 07:33:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 07:45:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 07:49:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 08:00:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 08:06:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/nowens336/finalproject/add.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 27
+[09-May-2018 08:06:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 27
+[09-May-2018 08:08:13 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 27
+[09-May-2018 08:08:13 UTC] PHP Stack trace:
+[09-May-2018 08:08:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/finalproject/add.php:0
+[09-May-2018 08:08:13 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/nowens336/finalproject/add.php:27
+[09-May-2018 08:08:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 27
+[09-May-2018 08:09:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 08:18:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 15:08:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 15:09:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 15:20:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 16
+[09-May-2018 15:20:41 UTC] PHP Stack trace:
+[09-May-2018 15:20:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:0
+[09-May-2018 15:20:41 UTC] PHP   2. getPokeInfo() /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:25
+[09-May-2018 15:34:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 15:37:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 27
+[09-May-2018 16:06:08 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 48
+[09-May-2018 16:06:08 UTC] PHP Stack trace:
+[09-May-2018 16:06:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:0
+[09-May-2018 16:06:08 UTC] PHP   2. print_r() /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:48
+[09-May-2018 16:40:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 16:44:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''pokemon' WHERE ID = 22/' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 16:45:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''pokemon' WHERE ID = 22/' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 16:50:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''pokemon' WHERE ID = 23/' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 16:53:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 17:14:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 17:16:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 17:16:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nowens336/finalproject/delete.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/delete.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/delete.php on line 7
+[09-May-2018 17:35:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 47
+[09-May-2018 17:38:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/editPoke.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/editPoke.php on line 47
+[09-May-2018 17:42:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.trainer' doesn't exist' in /home/ubuntu/workspace/nowens336/finalproject/deleteTrainer.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/deleteTrainer.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/deleteTrainer.php on line 7
+[09-May-2018 17:42:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 27
+[09-May-2018 18:03:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 27
+[09-May-2018 18:05:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 27
+[09-May-2018 18:13:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:16:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:16:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:16:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:16:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:16:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:16:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:16:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:17:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:19:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:19:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:20:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:21:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:21:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 31
+[09-May-2018 18:30:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 30
+[09-May-2018 18:30:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Name' cannot be null' in /home/ubuntu/workspace/nowens336/finalproject/add.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/nowens336/finalproject/add.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nowens336/finalproject/add.php on line 30
